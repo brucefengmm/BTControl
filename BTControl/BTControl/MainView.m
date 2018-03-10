@@ -6,19 +6,31 @@
 //  Copyright © 2018年 bruce. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MainView.h"
+#import "JL_BLEUsage.h"
 
-@interface ViewController ()
+@interface MainView ()
+{
+    JL_BLEUsage     *JL_ug;
+    JL_BLEControl   *bleCtrl;
+    NSMutableArray  *btEnityList;
+}
 
 @end
 
-@implementation ViewController
+@implementation MainView
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.navigationItem.title = @"Main";
+    
+    JL_ug = [JL_BLEUsage sharedMe];
+    
+    btEnityList = JL_ug.btEnityList;
+    bleCtrl = JL_ug.JL_ble_control;
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

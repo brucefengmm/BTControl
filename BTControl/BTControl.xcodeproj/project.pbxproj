@@ -8,13 +8,63 @@
 
 /* Begin PBXBuildFile section */
 		323927CE204A93A900D3414D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 323927CD204A93A900D3414D /* AppDelegate.m */; };
-		323927D1204A93A900D3414D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 323927D0204A93A900D3414D /* ViewController.m */; };
+		323927D1204A93A900D3414D /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 323927D0204A93A900D3414D /* MainView.m */; };
 		323927D4204A93A900D3414D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323927D2204A93A900D3414D /* Main.storyboard */; };
 		323927D6204A93A900D3414D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323927D5204A93A900D3414D /* Assets.xcassets */; };
 		323927D9204A93A900D3414D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323927D7204A93A900D3414D /* LaunchScreen.storyboard */; };
 		323927DC204A93A900D3414D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 323927DB204A93A900D3414D /* main.m */; };
 		323927E6204A93A900D3414D /* BTControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 323927E5204A93A900D3414D /* BTControlTests.m */; };
 		323927F1204A93A900D3414D /* BTControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 323927F0204A93A900D3414D /* BTControlUITests.m */; };
+		32931BE9204FFB88007DEF8B /* btn_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 32931BE4204FF717007DEF8B /* btn_selected.png */; };
+		32931BEA204FFB88007DEF8B /* btn_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 32931BE5204FF717007DEF8B /* btn_normal.png */; };
+		32931BEB204FFB88007DEF8B /* title_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 32931BE6204FF717007DEF8B /* title_bg.png */; };
+		32931BEC204FFB88007DEF8B /* btn_small_select.png in Resources */ = {isa = PBXBuildFile; fileRef = 32931BE7204FF717007DEF8B /* btn_small_select.png */; };
+		32931BED204FFB88007DEF8B /* btn_small_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 32931BE8204FF717007DEF8B /* btn_small_normal.png */; };
+		32931BF0204FFE14007DEF8B /* FmView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32931BEF204FFE14007DEF8B /* FmView.m */; };
+		32CAC4BD2051678600DCB3E6 /* process_bar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 32CAC4A82051678400DCB3E6 /* process_bar_bg.png */; };
+		32CAC4BE2051678600DCB3E6 /* btn_small2_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 32CAC4A92051678400DCB3E6 /* btn_small2_normal.png */; };
+		32CAC4BF2051678600DCB3E6 /* music_title_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 32CAC4AA2051678400DCB3E6 /* music_title_bg.png */; };
+		32CAC4C02051678600DCB3E6 /* fm_bt_ar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 32CAC4AB2051678400DCB3E6 /* fm_bt_ar_bg.png */; };
+		32CAC4C12051678600DCB3E6 /* fm_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 32CAC4AD2051678400DCB3E6 /* fm_bg.png */; };
+		32CAC4C22051678600DCB3E6 /* process_bar_select.png in Resources */ = {isa = PBXBuildFile; fileRef = 32CAC4AE2051678400DCB3E6 /* process_bar_select.png */; };
+		32CAC4C32051678600DCB3E6 /* vol_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 32CAC4B02051678500DCB3E6 /* vol_icon.png */; };
+		32CAC4C42051678600DCB3E6 /* setting_bar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 32CAC4B12051678500DCB3E6 /* setting_bar_bg.png */; };
+		32CAC4C52051678600DCB3E6 /* btn_f.png in Resources */ = {isa = PBXBuildFile; fileRef = 32CAC4B22051678500DCB3E6 /* btn_f.png */; };
+		32CAC4C62051678600DCB3E6 /* btn_b.png in Resources */ = {isa = PBXBuildFile; fileRef = 32CAC4B32051678500DCB3E6 /* btn_b.png */; };
+		32CAC4C72051678600DCB3E6 /* vol_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 32CAC4B42051678500DCB3E6 /* vol_add.png */; };
+		32CAC4C82051678600DCB3E6 /* btn_select.png in Resources */ = {isa = PBXBuildFile; fileRef = 32CAC4B62051678500DCB3E6 /* btn_select.png */; };
+		32CAC4C92051678600DCB3E6 /* btn_small2_select.png in Resources */ = {isa = PBXBuildFile; fileRef = 32CAC4B72051678500DCB3E6 /* btn_small2_select.png */; };
+		32CAC4CA2051678600DCB3E6 /* vol_mute.png in Resources */ = {isa = PBXBuildFile; fileRef = 32CAC4B82051678600DCB3E6 /* vol_mute.png */; };
+		32CAC4CB2051678600DCB3E6 /* vol_reduce.png in Resources */ = {isa = PBXBuildFile; fileRef = 32CAC4BA2051678600DCB3E6 /* vol_reduce.png */; };
+		32CAC4CC2051678600DCB3E6 /* setting_bar_select.png in Resources */ = {isa = PBXBuildFile; fileRef = 32CAC4BB2051678600DCB3E6 /* setting_bar_select.png */; };
+		32EF18B12053A38900DBC794 /* JL_BLE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32EF18AF2053A38900DBC794 /* JL_BLE.framework */; };
+		32EF18B22053A38900DBC794 /* DFUnits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32EF18B02053A38900DBC794 /* DFUnits.framework */; };
+		32EF19062053A52B00DBC794 /* JL_BLEControl.h in Sources */ = {isa = PBXBuildFile; fileRef = 32EF19002053A50B00DBC794 /* JL_BLEControl.h */; };
+		32EF19072053A52B00DBC794 /* JL_CommonEntiy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF19012053A50B00DBC794 /* JL_CommonEntiy.m */; };
+		32EF19082053A52B00DBC794 /* JL_BLEUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF19022053A50B00DBC794 /* JL_BLEUsage.m */; };
+		32EF19092053A52B00DBC794 /* JL_BLEControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF19032053A50B00DBC794 /* JL_BLEControl.m */; };
+		32EF190A2053A52B00DBC794 /* JL_BLEUsage.h in Sources */ = {isa = PBXBuildFile; fileRef = 32EF19042053A50B00DBC794 /* JL_BLEUsage.h */; };
+		32EF190B2053A52B00DBC794 /* JL_CommonEntiy.h in Sources */ = {isa = PBXBuildFile; fileRef = 32EF19052053A50B00DBC794 /* JL_CommonEntiy.h */; };
+		32EF190C2053A52B00DBC794 /* BabyRhythm.h in Sources */ = {isa = PBXBuildFile; fileRef = 32EF18EB2053A50B00DBC794 /* BabyRhythm.h */; };
+		32EF190D2053A52B00DBC794 /* BabySpeaker.h in Sources */ = {isa = PBXBuildFile; fileRef = 32EF18EC2053A50B00DBC794 /* BabySpeaker.h */; };
+		32EF190E2053A52B00DBC794 /* BabyToy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF18ED2053A50B00DBC794 /* BabyToy.m */; };
+		32EF190F2053A52B00DBC794 /* BabyCentralManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 32EF18EE2053A50B00DBC794 /* BabyCentralManager.h */; };
+		32EF19102053A52B00DBC794 /* BabyPeripheralManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 32EF18EF2053A50B00DBC794 /* BabyPeripheralManager.h */; };
+		32EF19112053A52B00DBC794 /* PeripheralInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF18F02053A50B00DBC794 /* PeripheralInfo.m */; };
+		32EF19122053A52B00DBC794 /* BabyDefine.h in Sources */ = {isa = PBXBuildFile; fileRef = 32EF18F12053A50B00DBC794 /* BabyDefine.h */; };
+		32EF19132053A52B00DBC794 /* BabyBluetooth.h in Sources */ = {isa = PBXBuildFile; fileRef = 32EF18F22053A50B00DBC794 /* BabyBluetooth.h */; };
+		32EF19142053A52B00DBC794 /* BabyOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF18F32053A50B00DBC794 /* BabyOptions.m */; };
+		32EF19152053A52B00DBC794 /* BabyCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF18F42053A50B00DBC794 /* BabyCallback.m */; };
+		32EF19162053A52B00DBC794 /* BabyPeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF18F52053A50B00DBC794 /* BabyPeripheralManager.m */; };
+		32EF19172053A52B00DBC794 /* BabyCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF18F62053A50B00DBC794 /* BabyCentralManager.m */; };
+		32EF19182053A52B00DBC794 /* BabySpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF18F72053A50B00DBC794 /* BabySpeaker.m */; };
+		32EF19192053A52B00DBC794 /* BabyToy.h in Sources */ = {isa = PBXBuildFile; fileRef = 32EF18F82053A50B00DBC794 /* BabyToy.h */; };
+		32EF191A2053A52B00DBC794 /* BabyRhythm.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF18F92053A50B00DBC794 /* BabyRhythm.m */; };
+		32EF191B2053A52B00DBC794 /* PeripheralInfo.h in Sources */ = {isa = PBXBuildFile; fileRef = 32EF18FA2053A50B00DBC794 /* PeripheralInfo.h */; };
+		32EF191C2053A52B00DBC794 /* BabyOptions.h in Sources */ = {isa = PBXBuildFile; fileRef = 32EF18FB2053A50B00DBC794 /* BabyOptions.h */; };
+		32EF191D2053A52B00DBC794 /* BabyBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF18FC2053A50B00DBC794 /* BabyBluetooth.m */; };
+		32EF191E2053A52B00DBC794 /* BabyDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF18FD2053A50B00DBC794 /* BabyDefine.m */; };
+		32EF191F2053A52B00DBC794 /* BabyCallback.h in Sources */ = {isa = PBXBuildFile; fileRef = 32EF18FE2053A50B00DBC794 /* BabyCallback.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +88,8 @@
 		323927C9204A93A900D3414D /* BTControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		323927CC204A93A900D3414D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		323927CD204A93A900D3414D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		323927CF204A93A900D3414D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		323927D0204A93A900D3414D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		323927CF204A93A900D3414D /* MainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		323927D0204A93A900D3414D /* MainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
 		323927D3204A93A900D3414D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		323927D5204A93A900D3414D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		323927D8204A93A900D3414D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +101,62 @@
 		323927EC204A93A900D3414D /* BTControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		323927F0204A93A900D3414D /* BTControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTControlUITests.m; sourceTree = "<group>"; };
 		323927F2204A93A900D3414D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32931BE4204FF717007DEF8B /* btn_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_selected.png; sourceTree = "<group>"; };
+		32931BE5204FF717007DEF8B /* btn_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_normal.png; sourceTree = "<group>"; };
+		32931BE6204FF717007DEF8B /* title_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_bg.png; sourceTree = "<group>"; };
+		32931BE7204FF717007DEF8B /* btn_small_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_small_select.png; sourceTree = "<group>"; };
+		32931BE8204FF717007DEF8B /* btn_small_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_small_normal.png; sourceTree = "<group>"; };
+		32931BEE204FFE02007DEF8B /* FmView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FmView.h; sourceTree = "<group>"; };
+		32931BEF204FFE14007DEF8B /* FmView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FmView.m; sourceTree = "<group>"; };
+		32CAC4A82051678400DCB3E6 /* process_bar_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = process_bar_bg.png; sourceTree = "<group>"; };
+		32CAC4A92051678400DCB3E6 /* btn_small2_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_small2_normal.png; sourceTree = "<group>"; };
+		32CAC4AA2051678400DCB3E6 /* music_title_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music_title_bg.png; sourceTree = "<group>"; };
+		32CAC4AB2051678400DCB3E6 /* fm_bt_ar_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fm_bt_ar_bg.png; sourceTree = "<group>"; };
+		32CAC4AC2051678400DCB3E6 /* btn_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_normal.png; sourceTree = "<group>"; };
+		32CAC4AD2051678400DCB3E6 /* fm_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fm_bg.png; sourceTree = "<group>"; };
+		32CAC4AE2051678400DCB3E6 /* process_bar_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = process_bar_select.png; sourceTree = "<group>"; };
+		32CAC4AF2051678500DCB3E6 /* btn_small_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_small_normal.png; sourceTree = "<group>"; };
+		32CAC4B02051678500DCB3E6 /* vol_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vol_icon.png; sourceTree = "<group>"; };
+		32CAC4B12051678500DCB3E6 /* setting_bar_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting_bar_bg.png; sourceTree = "<group>"; };
+		32CAC4B22051678500DCB3E6 /* btn_f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_f.png; sourceTree = "<group>"; };
+		32CAC4B32051678500DCB3E6 /* btn_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_b.png; sourceTree = "<group>"; };
+		32CAC4B42051678500DCB3E6 /* vol_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vol_add.png; sourceTree = "<group>"; };
+		32CAC4B52051678500DCB3E6 /* btn_small_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_small_select.png; sourceTree = "<group>"; };
+		32CAC4B62051678500DCB3E6 /* btn_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_select.png; sourceTree = "<group>"; };
+		32CAC4B72051678500DCB3E6 /* btn_small2_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_small2_select.png; sourceTree = "<group>"; };
+		32CAC4B82051678600DCB3E6 /* vol_mute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vol_mute.png; sourceTree = "<group>"; };
+		32CAC4B92051678600DCB3E6 /* title_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_bg.png; sourceTree = "<group>"; };
+		32CAC4BA2051678600DCB3E6 /* vol_reduce.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vol_reduce.png; sourceTree = "<group>"; };
+		32CAC4BB2051678600DCB3E6 /* setting_bar_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting_bar_select.png; sourceTree = "<group>"; };
+		32CAC4BC2051678600DCB3E6 /* btn_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_selected.png; sourceTree = "<group>"; };
+		32EF18AF2053A38900DBC794 /* JL_BLE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JL_BLE.framework; sourceTree = "<group>"; };
+		32EF18B02053A38900DBC794 /* DFUnits.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DFUnits.framework; sourceTree = "<group>"; };
+		32EF18EB2053A50B00DBC794 /* BabyRhythm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BabyRhythm.h; sourceTree = "<group>"; };
+		32EF18EC2053A50B00DBC794 /* BabySpeaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BabySpeaker.h; sourceTree = "<group>"; };
+		32EF18ED2053A50B00DBC794 /* BabyToy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BabyToy.m; sourceTree = "<group>"; };
+		32EF18EE2053A50B00DBC794 /* BabyCentralManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BabyCentralManager.h; sourceTree = "<group>"; };
+		32EF18EF2053A50B00DBC794 /* BabyPeripheralManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BabyPeripheralManager.h; sourceTree = "<group>"; };
+		32EF18F02053A50B00DBC794 /* PeripheralInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeripheralInfo.m; sourceTree = "<group>"; };
+		32EF18F12053A50B00DBC794 /* BabyDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BabyDefine.h; sourceTree = "<group>"; };
+		32EF18F22053A50B00DBC794 /* BabyBluetooth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BabyBluetooth.h; sourceTree = "<group>"; };
+		32EF18F32053A50B00DBC794 /* BabyOptions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BabyOptions.m; sourceTree = "<group>"; };
+		32EF18F42053A50B00DBC794 /* BabyCallback.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BabyCallback.m; sourceTree = "<group>"; };
+		32EF18F52053A50B00DBC794 /* BabyPeripheralManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BabyPeripheralManager.m; sourceTree = "<group>"; };
+		32EF18F62053A50B00DBC794 /* BabyCentralManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BabyCentralManager.m; sourceTree = "<group>"; };
+		32EF18F72053A50B00DBC794 /* BabySpeaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BabySpeaker.m; sourceTree = "<group>"; };
+		32EF18F82053A50B00DBC794 /* BabyToy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BabyToy.h; sourceTree = "<group>"; };
+		32EF18F92053A50B00DBC794 /* BabyRhythm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BabyRhythm.m; sourceTree = "<group>"; };
+		32EF18FA2053A50B00DBC794 /* PeripheralInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PeripheralInfo.h; sourceTree = "<group>"; };
+		32EF18FB2053A50B00DBC794 /* BabyOptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BabyOptions.h; sourceTree = "<group>"; };
+		32EF18FC2053A50B00DBC794 /* BabyBluetooth.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BabyBluetooth.m; sourceTree = "<group>"; };
+		32EF18FD2053A50B00DBC794 /* BabyDefine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BabyDefine.m; sourceTree = "<group>"; };
+		32EF18FE2053A50B00DBC794 /* BabyCallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BabyCallback.h; sourceTree = "<group>"; };
+		32EF19002053A50B00DBC794 /* JL_BLEControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JL_BLEControl.h; sourceTree = "<group>"; };
+		32EF19012053A50B00DBC794 /* JL_CommonEntiy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JL_CommonEntiy.m; sourceTree = "<group>"; };
+		32EF19022053A50B00DBC794 /* JL_BLEUsage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JL_BLEUsage.m; sourceTree = "<group>"; };
+		32EF19032053A50B00DBC794 /* JL_BLEControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JL_BLEControl.m; sourceTree = "<group>"; };
+		32EF19042053A50B00DBC794 /* JL_BLEUsage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JL_BLEUsage.h; sourceTree = "<group>"; };
+		32EF19052053A50B00DBC794 /* JL_CommonEntiy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JL_CommonEntiy.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +164,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32EF18B12053A38900DBC794 /* JL_BLE.framework in Frameworks */,
+				32EF18B22053A38900DBC794 /* DFUnits.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +189,13 @@
 		323927C0204A93A900D3414D = {
 			isa = PBXGroup;
 			children = (
+				32931BE3204FF717007DEF8B /* resource */,
+				32931BBF204FF336007DEF8B /* Lib */,
 				323927CB204A93A900D3414D /* BTControl */,
 				323927E4204A93A900D3414D /* BTControlTests */,
 				323927EF204A93A900D3414D /* BTControlUITests */,
 				323927CA204A93A900D3414D /* Products */,
+				32931B78204EEB71007DEF8B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +214,10 @@
 			children = (
 				323927CC204A93A900D3414D /* AppDelegate.h */,
 				323927CD204A93A900D3414D /* AppDelegate.m */,
-				323927CF204A93A900D3414D /* ViewController.h */,
-				323927D0204A93A900D3414D /* ViewController.m */,
+				323927CF204A93A900D3414D /* MainView.h */,
+				323927D0204A93A900D3414D /* MainView.m */,
+				32931BEE204FFE02007DEF8B /* FmView.h */,
+				32931BEF204FFE14007DEF8B /* FmView.m */,
 				323927D2204A93A900D3414D /* Main.storyboard */,
 				323927D5204A93A900D3414D /* Assets.xcassets */,
 				323927D7204A93A900D3414D /* LaunchScreen.storyboard */,
@@ -130,6 +243,99 @@
 				323927F2204A93A900D3414D /* Info.plist */,
 			);
 			path = BTControlUITests;
+			sourceTree = "<group>";
+		};
+		32931B78204EEB71007DEF8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32EF18B02053A38900DBC794 /* DFUnits.framework */,
+				32EF18AF2053A38900DBC794 /* JL_BLE.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32931BBF204FF336007DEF8B /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				32EF18FF2053A50B00DBC794 /* BLE_Usage */,
+				32EF18EA2053A50B00DBC794 /* Bluetooth_3rd */,
+			);
+			name = Lib;
+			path = BTControl/Lib;
+			sourceTree = "<group>";
+		};
+		32931BE3204FF717007DEF8B /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				32CAC4B32051678500DCB3E6 /* btn_b.png */,
+				32CAC4B22051678500DCB3E6 /* btn_f.png */,
+				32CAC4AC2051678400DCB3E6 /* btn_normal.png */,
+				32CAC4B62051678500DCB3E6 /* btn_select.png */,
+				32CAC4BC2051678600DCB3E6 /* btn_selected.png */,
+				32CAC4AF2051678500DCB3E6 /* btn_small_normal.png */,
+				32CAC4B52051678500DCB3E6 /* btn_small_select.png */,
+				32CAC4A92051678400DCB3E6 /* btn_small2_normal.png */,
+				32CAC4B72051678500DCB3E6 /* btn_small2_select.png */,
+				32CAC4AD2051678400DCB3E6 /* fm_bg.png */,
+				32CAC4AB2051678400DCB3E6 /* fm_bt_ar_bg.png */,
+				32CAC4AA2051678400DCB3E6 /* music_title_bg.png */,
+				32CAC4A82051678400DCB3E6 /* process_bar_bg.png */,
+				32CAC4AE2051678400DCB3E6 /* process_bar_select.png */,
+				32CAC4B12051678500DCB3E6 /* setting_bar_bg.png */,
+				32CAC4BB2051678600DCB3E6 /* setting_bar_select.png */,
+				32CAC4B92051678600DCB3E6 /* title_bg.png */,
+				32CAC4B42051678500DCB3E6 /* vol_add.png */,
+				32CAC4B02051678500DCB3E6 /* vol_icon.png */,
+				32CAC4B82051678600DCB3E6 /* vol_mute.png */,
+				32CAC4BA2051678600DCB3E6 /* vol_reduce.png */,
+				32931BE4204FF717007DEF8B /* btn_selected.png */,
+				32931BE5204FF717007DEF8B /* btn_normal.png */,
+				32931BE6204FF717007DEF8B /* title_bg.png */,
+				32931BE7204FF717007DEF8B /* btn_small_select.png */,
+				32931BE8204FF717007DEF8B /* btn_small_normal.png */,
+			);
+			name = resource;
+			path = BTControl/resource;
+			sourceTree = "<group>";
+		};
+		32EF18EA2053A50B00DBC794 /* Bluetooth_3rd */ = {
+			isa = PBXGroup;
+			children = (
+				32EF18EB2053A50B00DBC794 /* BabyRhythm.h */,
+				32EF18EC2053A50B00DBC794 /* BabySpeaker.h */,
+				32EF18ED2053A50B00DBC794 /* BabyToy.m */,
+				32EF18EE2053A50B00DBC794 /* BabyCentralManager.h */,
+				32EF18EF2053A50B00DBC794 /* BabyPeripheralManager.h */,
+				32EF18F02053A50B00DBC794 /* PeripheralInfo.m */,
+				32EF18F12053A50B00DBC794 /* BabyDefine.h */,
+				32EF18F22053A50B00DBC794 /* BabyBluetooth.h */,
+				32EF18F32053A50B00DBC794 /* BabyOptions.m */,
+				32EF18F42053A50B00DBC794 /* BabyCallback.m */,
+				32EF18F52053A50B00DBC794 /* BabyPeripheralManager.m */,
+				32EF18F62053A50B00DBC794 /* BabyCentralManager.m */,
+				32EF18F72053A50B00DBC794 /* BabySpeaker.m */,
+				32EF18F82053A50B00DBC794 /* BabyToy.h */,
+				32EF18F92053A50B00DBC794 /* BabyRhythm.m */,
+				32EF18FA2053A50B00DBC794 /* PeripheralInfo.h */,
+				32EF18FB2053A50B00DBC794 /* BabyOptions.h */,
+				32EF18FC2053A50B00DBC794 /* BabyBluetooth.m */,
+				32EF18FD2053A50B00DBC794 /* BabyDefine.m */,
+				32EF18FE2053A50B00DBC794 /* BabyCallback.h */,
+			);
+			path = Bluetooth_3rd;
+			sourceTree = "<group>";
+		};
+		32EF18FF2053A50B00DBC794 /* BLE_Usage */ = {
+			isa = PBXGroup;
+			children = (
+				32EF19002053A50B00DBC794 /* JL_BLEControl.h */,
+				32EF19012053A50B00DBC794 /* JL_CommonEntiy.m */,
+				32EF19022053A50B00DBC794 /* JL_BLEUsage.m */,
+				32EF19032053A50B00DBC794 /* JL_BLEControl.m */,
+				32EF19042053A50B00DBC794 /* JL_BLEUsage.h */,
+				32EF19052053A50B00DBC794 /* JL_CommonEntiy.h */,
+			);
+			path = BLE_Usage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +444,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32CAC4BD2051678600DCB3E6 /* process_bar_bg.png in Resources */,
+				32CAC4BE2051678600DCB3E6 /* btn_small2_normal.png in Resources */,
+				32CAC4BF2051678600DCB3E6 /* music_title_bg.png in Resources */,
+				32CAC4C02051678600DCB3E6 /* fm_bt_ar_bg.png in Resources */,
+				32931BEA204FFB88007DEF8B /* btn_normal.png in Resources */,
+				32CAC4C12051678600DCB3E6 /* fm_bg.png in Resources */,
+				32CAC4C22051678600DCB3E6 /* process_bar_select.png in Resources */,
+				32931BED204FFB88007DEF8B /* btn_small_normal.png in Resources */,
+				32CAC4C32051678600DCB3E6 /* vol_icon.png in Resources */,
+				32CAC4C42051678600DCB3E6 /* setting_bar_bg.png in Resources */,
+				32CAC4C52051678600DCB3E6 /* btn_f.png in Resources */,
+				32CAC4C62051678600DCB3E6 /* btn_b.png in Resources */,
+				32CAC4C72051678600DCB3E6 /* vol_add.png in Resources */,
+				32931BEC204FFB88007DEF8B /* btn_small_select.png in Resources */,
+				32CAC4C82051678600DCB3E6 /* btn_select.png in Resources */,
+				32CAC4C92051678600DCB3E6 /* btn_small2_select.png in Resources */,
+				32CAC4CA2051678600DCB3E6 /* vol_mute.png in Resources */,
+				32931BEB204FFB88007DEF8B /* title_bg.png in Resources */,
+				32CAC4CB2051678600DCB3E6 /* vol_reduce.png in Resources */,
+				32CAC4CC2051678600DCB3E6 /* setting_bar_select.png in Resources */,
+				32931BE9204FFB88007DEF8B /* btn_selected.png in Resources */,
 				323927D9204A93A900D3414D /* LaunchScreen.storyboard in Resources */,
 				323927D6204A93A900D3414D /* Assets.xcassets in Resources */,
 				323927D4204A93A900D3414D /* Main.storyboard in Resources */,
@@ -265,7 +492,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				323927D1204A93A900D3414D /* ViewController.m in Sources */,
+				32EF19062053A52B00DBC794 /* JL_BLEControl.h in Sources */,
+				32EF19072053A52B00DBC794 /* JL_CommonEntiy.m in Sources */,
+				32EF19082053A52B00DBC794 /* JL_BLEUsage.m in Sources */,
+				32EF19092053A52B00DBC794 /* JL_BLEControl.m in Sources */,
+				32EF190A2053A52B00DBC794 /* JL_BLEUsage.h in Sources */,
+				32EF190B2053A52B00DBC794 /* JL_CommonEntiy.h in Sources */,
+				32EF190C2053A52B00DBC794 /* BabyRhythm.h in Sources */,
+				32EF190D2053A52B00DBC794 /* BabySpeaker.h in Sources */,
+				32EF190E2053A52B00DBC794 /* BabyToy.m in Sources */,
+				32EF190F2053A52B00DBC794 /* BabyCentralManager.h in Sources */,
+				32EF19102053A52B00DBC794 /* BabyPeripheralManager.h in Sources */,
+				32EF19112053A52B00DBC794 /* PeripheralInfo.m in Sources */,
+				32EF19122053A52B00DBC794 /* BabyDefine.h in Sources */,
+				32EF19132053A52B00DBC794 /* BabyBluetooth.h in Sources */,
+				32EF19142053A52B00DBC794 /* BabyOptions.m in Sources */,
+				32EF19152053A52B00DBC794 /* BabyCallback.m in Sources */,
+				32EF19162053A52B00DBC794 /* BabyPeripheralManager.m in Sources */,
+				32EF19172053A52B00DBC794 /* BabyCentralManager.m in Sources */,
+				32EF19182053A52B00DBC794 /* BabySpeaker.m in Sources */,
+				32EF19192053A52B00DBC794 /* BabyToy.h in Sources */,
+				32EF191A2053A52B00DBC794 /* BabyRhythm.m in Sources */,
+				32EF191B2053A52B00DBC794 /* PeripheralInfo.h in Sources */,
+				32EF191C2053A52B00DBC794 /* BabyOptions.h in Sources */,
+				32EF191D2053A52B00DBC794 /* BabyBluetooth.m in Sources */,
+				32EF191E2053A52B00DBC794 /* BabyDefine.m in Sources */,
+				32EF191F2053A52B00DBC794 /* BabyCallback.h in Sources */,
+				323927D1204A93A900D3414D /* MainView.m in Sources */,
+				32931BF0204FFE14007DEF8B /* FmView.m in Sources */,
 				323927DC204A93A900D3414D /* main.m in Sources */,
 				323927CE204A93A900D3414D /* AppDelegate.m in Sources */,
 			);
@@ -432,7 +686,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3SLXU378PE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BTControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bruce.BTControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,7 +705,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3SLXU378PE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = BTControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bruce.BTControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
