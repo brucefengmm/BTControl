@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainView : UIViewController
+@interface ViewController : UIViewController
 
 
 @end

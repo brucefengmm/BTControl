@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		323927CE204A93A900D3414D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 323927CD204A93A900D3414D /* AppDelegate.m */; };
-		323927D1204A93A900D3414D /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 323927D0204A93A900D3414D /* MainView.m */; };
+		323927D1204A93A900D3414D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 323927D0204A93A900D3414D /* ViewController.m */; };
 		323927D4204A93A900D3414D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323927D2204A93A900D3414D /* Main.storyboard */; };
 		323927D6204A93A900D3414D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323927D5204A93A900D3414D /* Assets.xcassets */; };
 		323927D9204A93A900D3414D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323927D7204A93A900D3414D /* LaunchScreen.storyboard */; };
@@ -88,8 +88,8 @@
 		323927C9204A93A900D3414D /* BTControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		323927CC204A93A900D3414D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		323927CD204A93A900D3414D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		323927CF204A93A900D3414D /* MainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
-		323927D0204A93A900D3414D /* MainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		323927CF204A93A900D3414D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		323927D0204A93A900D3414D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		323927D3204A93A900D3414D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		323927D5204A93A900D3414D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		323927D8204A93A900D3414D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -214,8 +214,8 @@
 			children = (
 				323927CC204A93A900D3414D /* AppDelegate.h */,
 				323927CD204A93A900D3414D /* AppDelegate.m */,
-				323927CF204A93A900D3414D /* MainView.h */,
-				323927D0204A93A900D3414D /* MainView.m */,
+				323927CF204A93A900D3414D /* ViewController.h */,
+				323927D0204A93A900D3414D /* ViewController.m */,
 				32931BEE204FFE02007DEF8B /* FmView.h */,
 				32931BEF204FFE14007DEF8B /* FmView.m */,
 				323927D2204A93A900D3414D /* Main.storyboard */,
@@ -518,7 +518,7 @@
 				32EF191D2053A52B00DBC794 /* BabyBluetooth.m in Sources */,
 				32EF191E2053A52B00DBC794 /* BabyDefine.m in Sources */,
 				32EF191F2053A52B00DBC794 /* BabyCallback.h in Sources */,
-				323927D1204A93A900D3414D /* MainView.m in Sources */,
+				323927D1204A93A900D3414D /* ViewController.m in Sources */,
 				32931BF0204FFE14007DEF8B /* FmView.m in Sources */,
 				323927DC204A93A900D3414D /* main.m in Sources */,
 				323927CE204A93A900D3414D /* AppDelegate.m in Sources */,
