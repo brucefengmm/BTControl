@@ -232,8 +232,6 @@
 		323927C0204A93A900D3414D = {
 			isa = PBXGroup;
 			children = (
-				32931BE3204FF717007DEF8B /* resource */,
-				32931BBF204FF336007DEF8B /* Lib */,
 				323927CB204A93A900D3414D /* BTControl */,
 				323927E4204A93A900D3414D /* BTControlTests */,
 				323927EF204A93A900D3414D /* BTControlUITests */,
@@ -255,6 +253,8 @@
 		323927CB204A93A900D3414D /* BTControl */ = {
 			isa = PBXGroup;
 			children = (
+				32931BBF204FF336007DEF8B /* Lib */,
+				32931BE3204FF717007DEF8B /* resource */,
 				323927CC204A93A900D3414D /* AppDelegate.h */,
 				323927CD204A93A900D3414D /* AppDelegate.m */,
 				323927CF204A93A900D3414D /* ViewController.h */,
@@ -312,8 +312,7 @@
 				32EF18FF2053A50B00DBC794 /* BLE_Usage */,
 				32EF18EA2053A50B00DBC794 /* Bluetooth_3rd */,
 			);
-			name = Lib;
-			path = BTControl/Lib;
+			path = Lib;
 			sourceTree = "<group>";
 		};
 		32931BE3204FF717007DEF8B /* resource */ = {
@@ -359,8 +358,7 @@
 				32931BE7204FF717007DEF8B /* btn_small_select.png */,
 				32931BE8204FF717007DEF8B /* btn_small_normal.png */,
 			);
-			name = resource;
-			path = BTControl/resource;
+			path = resource;
 			sourceTree = "<group>";
 		};
 		32EF18EA2053A50B00DBC794 /* Bluetooth_3rd */ = {
