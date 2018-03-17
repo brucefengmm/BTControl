@@ -8,7 +8,10 @@
 #import <UIKit/UIKit.h>
 
 @interface FmView : UIViewController
-
+@property (strong, nonatomic) IBOutlet UIProgressView *volProgressView;
+@property (strong, nonatomic) IBOutlet UIImageView *btSearchNext;
+@property (strong, nonatomic) IBOutlet UIImageView *btSearchPre;
+@property (strong, nonatomic) IBOutlet UILabel *freText;
 
 @end
 

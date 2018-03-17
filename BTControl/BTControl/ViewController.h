@@ -10,6 +10,16 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)btnFM:(id)sender;
+- (IBAction)btnAM:(id)sender;
+- (IBAction)btnDISC:(id)sender;
+- (IBAction)btnUSB:(id)sender;
+- (IBAction)btnPOWER:(id)sender;
+- (IBAction)btnSD:(id)sender;
+- (IBAction)btnAUX:(id)sender;
+- (IBAction)btnBT:(id)sender;
+- (IBAction)btnSETTING:(id)sender;
+
 
 @end
 

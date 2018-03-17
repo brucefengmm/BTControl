@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		322B64B220556FC3008DB231 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322B64B120556FC3008DB231 /* CoreGraphics.framework */; };
+		322B64B520557ABF008DB231 /* SettingView.h in Sources */ = {isa = PBXBuildFile; fileRef = 322B64B320557ABE008DB231 /* SettingView.h */; };
+		322B64B620557ABF008DB231 /* SettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 322B64B420557ABF008DB231 /* SettingView.m */; };
 		323927CE204A93A900D3414D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 323927CD204A93A900D3414D /* AppDelegate.m */; };
 		323927D1204A93A900D3414D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 323927D0204A93A900D3414D /* ViewController.m */; };
 		323927D4204A93A900D3414D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323927D2204A93A900D3414D /* Main.storyboard */; };
@@ -15,6 +18,22 @@
 		323927DC204A93A900D3414D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 323927DB204A93A900D3414D /* main.m */; };
 		323927E6204A93A900D3414D /* BTControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 323927E5204A93A900D3414D /* BTControlTests.m */; };
 		323927F1204A93A900D3414D /* BTControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 323927F0204A93A900D3414D /* BTControlUITests.m */; };
+		323D25C4205CC9C90026BC7D /* MusicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 323D25C3205CC9C90026BC7D /* MusicView.m */; };
+		3248522C20552BCC001C1B47 /* BtView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3248522A20552BCB001C1B47 /* BtView.m */; };
+		3248522D20552BCC001C1B47 /* BtView.h in Sources */ = {isa = PBXBuildFile; fileRef = 3248522B20552BCB001C1B47 /* BtView.h */; };
+		324852322055337E001C1B47 /* btn_pre_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3248522E2055337D001C1B47 /* btn_pre_normal.png */; };
+		324852332055337E001C1B47 /* btn_pre_select.png in Resources */ = {isa = PBXBuildFile; fileRef = 3248522F2055337D001C1B47 /* btn_pre_select.png */; };
+		324852342055337E001C1B47 /* btn_next_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 324852302055337E001C1B47 /* btn_next_normal.png */; };
+		324852352055337E001C1B47 /* btn_next_select.png in Resources */ = {isa = PBXBuildFile; fileRef = 324852312055337E001C1B47 /* btn_next_select.png */; };
+		32485237205533C5001C1B47 /* music_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 32485236205533C5001C1B47 /* music_bg.png */; };
+		3248523D205535D9001C1B47 /* btn_pause_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 32485238205535D9001C1B47 /* btn_pause_normal.png */; };
+		3248523E205535D9001C1B47 /* btn_next_disable.png in Resources */ = {isa = PBXBuildFile; fileRef = 32485239205535D9001C1B47 /* btn_next_disable.png */; };
+		3248523F205535D9001C1B47 /* btn_pause_select.png in Resources */ = {isa = PBXBuildFile; fileRef = 3248523A205535D9001C1B47 /* btn_pause_select.png */; };
+		32485240205535D9001C1B47 /* btn_pre_disable.png in Resources */ = {isa = PBXBuildFile; fileRef = 3248523B205535D9001C1B47 /* btn_pre_disable.png */; };
+		32485241205535D9001C1B47 /* btn_pause_disable.png in Resources */ = {isa = PBXBuildFile; fileRef = 3248523C205535D9001C1B47 /* btn_pause_disable.png */; };
+		3248524420553A4A001C1B47 /* btn_main_poweroff_select.png in Resources */ = {isa = PBXBuildFile; fileRef = 3248524220553A49001C1B47 /* btn_main_poweroff_select.png */; };
+		3248524520553A4A001C1B47 /* btn_main_poweroff_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3248524320553A49001C1B47 /* btn_main_poweroff_normal.png */; };
+		32485247205543BC001C1B47 /* BTProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32485246205543BC001C1B47 /* BTProgressView.m */; };
 		32931BE9204FFB88007DEF8B /* btn_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 32931BE4204FF717007DEF8B /* btn_selected.png */; };
 		32931BEA204FFB88007DEF8B /* btn_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 32931BE5204FF717007DEF8B /* btn_normal.png */; };
 		32931BEB204FFB88007DEF8B /* title_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 32931BE6204FF717007DEF8B /* title_bg.png */; };
@@ -65,6 +84,7 @@
 		32EF191D2053A52B00DBC794 /* BabyBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF18FC2053A50B00DBC794 /* BabyBluetooth.m */; };
 		32EF191E2053A52B00DBC794 /* BabyDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF18FD2053A50B00DBC794 /* BabyDefine.m */; };
 		32EF191F2053A52B00DBC794 /* BabyCallback.h in Sources */ = {isa = PBXBuildFile; fileRef = 32EF18FE2053A50B00DBC794 /* BabyCallback.h */; };
+		32EF19212055141D00DBC794 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 32EF19202055141D00DBC794 /* bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +105,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		322B64B120556FC3008DB231 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		322B64B320557ABE008DB231 /* SettingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingView.h; sourceTree = "<group>"; };
+		322B64B420557ABF008DB231 /* SettingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingView.m; sourceTree = "<group>"; };
 		323927C9204A93A900D3414D /* BTControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		323927CC204A93A900D3414D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		323927CD204A93A900D3414D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -101,6 +124,24 @@
 		323927EC204A93A900D3414D /* BTControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		323927F0204A93A900D3414D /* BTControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTControlUITests.m; sourceTree = "<group>"; };
 		323927F2204A93A900D3414D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		323D25C2205CC9BB0026BC7D /* MusicView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MusicView.h; sourceTree = "<group>"; };
+		323D25C3205CC9C90026BC7D /* MusicView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicView.m; sourceTree = "<group>"; };
+		3248522A20552BCB001C1B47 /* BtView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BtView.m; sourceTree = "<group>"; };
+		3248522B20552BCB001C1B47 /* BtView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BtView.h; sourceTree = "<group>"; };
+		3248522E2055337D001C1B47 /* btn_pre_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_pre_normal.png; sourceTree = "<group>"; };
+		3248522F2055337D001C1B47 /* btn_pre_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_pre_select.png; sourceTree = "<group>"; };
+		324852302055337E001C1B47 /* btn_next_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_next_normal.png; sourceTree = "<group>"; };
+		324852312055337E001C1B47 /* btn_next_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_next_select.png; sourceTree = "<group>"; };
+		32485236205533C5001C1B47 /* music_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music_bg.png; sourceTree = "<group>"; };
+		32485238205535D9001C1B47 /* btn_pause_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_pause_normal.png; sourceTree = "<group>"; };
+		32485239205535D9001C1B47 /* btn_next_disable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_next_disable.png; sourceTree = "<group>"; };
+		3248523A205535D9001C1B47 /* btn_pause_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_pause_select.png; sourceTree = "<group>"; };
+		3248523B205535D9001C1B47 /* btn_pre_disable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_pre_disable.png; sourceTree = "<group>"; };
+		3248523C205535D9001C1B47 /* btn_pause_disable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_pause_disable.png; sourceTree = "<group>"; };
+		3248524220553A49001C1B47 /* btn_main_poweroff_select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_main_poweroff_select.png; sourceTree = "<group>"; };
+		3248524320553A49001C1B47 /* btn_main_poweroff_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_main_poweroff_normal.png; sourceTree = "<group>"; };
+		32485246205543BC001C1B47 /* BTProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTProgressView.m; sourceTree = "<group>"; };
+		32485248205543DE001C1B47 /* BTProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTProgressView.h; sourceTree = "<group>"; };
 		32931BE4204FF717007DEF8B /* btn_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_selected.png; sourceTree = "<group>"; };
 		32931BE5204FF717007DEF8B /* btn_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_normal.png; sourceTree = "<group>"; };
 		32931BE6204FF717007DEF8B /* title_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_bg.png; sourceTree = "<group>"; };
@@ -157,6 +198,7 @@
 		32EF19032053A50B00DBC794 /* JL_BLEControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JL_BLEControl.m; sourceTree = "<group>"; };
 		32EF19042053A50B00DBC794 /* JL_BLEUsage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JL_BLEUsage.h; sourceTree = "<group>"; };
 		32EF19052053A50B00DBC794 /* JL_CommonEntiy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JL_CommonEntiy.h; sourceTree = "<group>"; };
+		32EF19202055141D00DBC794 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +206,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				322B64B220556FC3008DB231 /* CoreGraphics.framework in Frameworks */,
 				32EF18B12053A38900DBC794 /* JL_BLE.framework in Frameworks */,
 				32EF18B22053A38900DBC794 /* DFUnits.framework in Frameworks */,
 			);
@@ -218,11 +261,19 @@
 				323927D0204A93A900D3414D /* ViewController.m */,
 				32931BEE204FFE02007DEF8B /* FmView.h */,
 				32931BEF204FFE14007DEF8B /* FmView.m */,
+				3248522B20552BCB001C1B47 /* BtView.h */,
+				3248522A20552BCB001C1B47 /* BtView.m */,
+				322B64B420557ABF008DB231 /* SettingView.m */,
+				322B64B320557ABE008DB231 /* SettingView.h */,
 				323927D2204A93A900D3414D /* Main.storyboard */,
+				32485246205543BC001C1B47 /* BTProgressView.m */,
+				32485248205543DE001C1B47 /* BTProgressView.h */,
 				323927D5204A93A900D3414D /* Assets.xcassets */,
 				323927D7204A93A900D3414D /* LaunchScreen.storyboard */,
 				323927DA204A93A900D3414D /* Info.plist */,
 				323927DB204A93A900D3414D /* main.m */,
+				323D25C2205CC9BB0026BC7D /* MusicView.h */,
+				323D25C3205CC9C90026BC7D /* MusicView.m */,
 			);
 			path = BTControl;
 			sourceTree = "<group>";
@@ -248,6 +299,7 @@
 		32931B78204EEB71007DEF8B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				322B64B120556FC3008DB231 /* CoreGraphics.framework */,
 				32EF18B02053A38900DBC794 /* DFUnits.framework */,
 				32EF18AF2053A38900DBC794 /* JL_BLE.framework */,
 			);
@@ -267,6 +319,19 @@
 		32931BE3204FF717007DEF8B /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				3248524320553A49001C1B47 /* btn_main_poweroff_normal.png */,
+				3248524220553A49001C1B47 /* btn_main_poweroff_select.png */,
+				32485239205535D9001C1B47 /* btn_next_disable.png */,
+				3248523C205535D9001C1B47 /* btn_pause_disable.png */,
+				32485238205535D9001C1B47 /* btn_pause_normal.png */,
+				3248523A205535D9001C1B47 /* btn_pause_select.png */,
+				3248523B205535D9001C1B47 /* btn_pre_disable.png */,
+				32485236205533C5001C1B47 /* music_bg.png */,
+				324852302055337E001C1B47 /* btn_next_normal.png */,
+				324852312055337E001C1B47 /* btn_next_select.png */,
+				3248522E2055337D001C1B47 /* btn_pre_normal.png */,
+				3248522F2055337D001C1B47 /* btn_pre_select.png */,
+				32EF19202055141D00DBC794 /* bg.png */,
 				32CAC4B32051678500DCB3E6 /* btn_b.png */,
 				32CAC4B22051678500DCB3E6 /* btn_f.png */,
 				32CAC4AC2051678400DCB3E6 /* btn_normal.png */,
@@ -444,6 +509,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3248524420553A4A001C1B47 /* btn_main_poweroff_select.png in Resources */,
+				3248524520553A4A001C1B47 /* btn_main_poweroff_normal.png in Resources */,
+				3248523D205535D9001C1B47 /* btn_pause_normal.png in Resources */,
+				3248523E205535D9001C1B47 /* btn_next_disable.png in Resources */,
+				3248523F205535D9001C1B47 /* btn_pause_select.png in Resources */,
+				32485240205535D9001C1B47 /* btn_pre_disable.png in Resources */,
+				32485241205535D9001C1B47 /* btn_pause_disable.png in Resources */,
+				32485237205533C5001C1B47 /* music_bg.png in Resources */,
+				324852322055337E001C1B47 /* btn_pre_normal.png in Resources */,
+				324852332055337E001C1B47 /* btn_pre_select.png in Resources */,
+				324852342055337E001C1B47 /* btn_next_normal.png in Resources */,
+				324852352055337E001C1B47 /* btn_next_select.png in Resources */,
+				32EF19212055141D00DBC794 /* bg.png in Resources */,
 				32CAC4BD2051678600DCB3E6 /* process_bar_bg.png in Resources */,
 				32CAC4BE2051678600DCB3E6 /* btn_small2_normal.png in Resources */,
 				32CAC4BF2051678600DCB3E6 /* music_title_bg.png in Resources */,
@@ -492,6 +570,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				322B64B520557ABF008DB231 /* SettingView.h in Sources */,
+				322B64B620557ABF008DB231 /* SettingView.m in Sources */,
+				323D25C4205CC9C90026BC7D /* MusicView.m in Sources */,
+				3248522C20552BCC001C1B47 /* BtView.m in Sources */,
+				3248522D20552BCC001C1B47 /* BtView.h in Sources */,
 				32EF19062053A52B00DBC794 /* JL_BLEControl.h in Sources */,
 				32EF19072053A52B00DBC794 /* JL_CommonEntiy.m in Sources */,
 				32EF19082053A52B00DBC794 /* JL_BLEUsage.m in Sources */,
@@ -516,6 +599,7 @@
 				32EF191B2053A52B00DBC794 /* PeripheralInfo.h in Sources */,
 				32EF191C2053A52B00DBC794 /* BabyOptions.h in Sources */,
 				32EF191D2053A52B00DBC794 /* BabyBluetooth.m in Sources */,
+				32485247205543BC001C1B47 /* BTProgressView.m in Sources */,
 				32EF191E2053A52B00DBC794 /* BabyDefine.m in Sources */,
 				32EF191F2053A52B00DBC794 /* BabyCallback.h in Sources */,
 				323927D1204A93A900D3414D /* ViewController.m in Sources */,
@@ -691,7 +775,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = BTControl/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bruce.BTControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -710,7 +794,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = BTControl/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bruce.BTControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
